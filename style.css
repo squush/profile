@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(99, 129, 86);
+  font-family: Georgia;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(12, 37, 46);
+}
+
+a:hover {
+  color: green;
+}
+
+#hobby {
+  font-family: courier;
+}
+
+img {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card {
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 8px;
+  padding: 8px;
+  margin: 15px;
+  background-color: lightpink;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(255, 204, 213);
+  border: 6px solid rgb(44, 22, 22);
+}
+
+@media (max-width: 1200px) {
+  img {
+    border: 5px solid white;
+  }
+}
+
+@media (max-width: 800px) {
+  h1, h2 {
+    color: white
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+
+  h1, h2 {
+    color: black
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 200px;
+  }
+}
